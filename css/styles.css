@@ -1,0 +1,827 @@
+body{
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Nunito', sans-serif;
+	background: url(../images/common/bgPattern.jpg) center center fixed no-repeat #CCC1Af;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+.section{opacity:0;}
+.wrapper{
+	position: relative;
+	width: 960px;
+	margin: 0px auto;
+}
+div.header{
+	width: 100%;
+	height: 57px;
+	background: url(../images/common/headingBacker.png) left top;
+	position: fixed;
+	top: 0px;
+	z-index: 10;
+}
+div.header ul{
+	position: relative;
+	margin: 0px 0px 0px 83px;
+	padding: 0px;
+	top: 20px;
+
+}
+div.header ul > li{
+	display: inline-block;
+	position: relative;
+	float: left;
+	width: 15px;
+	height: 14px;
+
+	background: url(../images/common/dotIndicate.png) -15px top no-repeat;
+	margin-right: 10px;
+}
+div.header ul > li.active{
+	background: url(../images/common/dotIndicate.png) left top no-repeat;
+}
+
+div.julieWarrenLogoSmall{
+	position: relative;
+	float: right;
+	right: 0px;
+	margin-top: 7px;
+	margin-right: 83px;
+	width: 244px;
+	height: 54px;
+	background: url(../images/common/julieAndWarrenSmall.png) center top no-repeat;
+}
+div.julieWarrenLogoLarge{
+	min-width: 100px;
+	min-height: 64px;
+	max-width: 522px;
+	max-height: 334px;
+
+	background: url(../images/common/JulieandWarrenHero.png) center top no-repeat;
+	background-size: 100%;
+}
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.vCenter{
+	position: fixed;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+
+.partOne,
+.partTwo,
+.partThree,
+.partFour,
+.partFive,
+.partSix,
+.partSeven,
+.partEight,
+.partNine,
+.partTen,
+.partEleven,
+.partTwelve,
+.partThirteen{
+	width: 100%;
+	height: 527px;
+	clear: both;
+	background-size: cover;
+	border-top: 5px solid #fff;
+	border-bottom: 5px solid #fff;
+}
+
+.partOne{background: url(../images/pageOne/theBeginningHero.png) center top no-repeat;}
+.partTwo{background: url(../images/pageTwo/growingUpHero.jpg) center top no-repeat;}
+.partThree{background: url(../images/pageThree/humberHero.jpg) center top no-repeat;}
+.partFour{background: url(../images/pageFour/movedToLondonHero.jpg) center top no-repeat;}
+.partFive{background: url(../images/pageFive/atTheGrandHero.jpg) center top no-repeat;}
+.partSix{background: url(../images/pageSix/anotherConnecttionHero.png) center top no-repeat;}
+.partSeven{background: url(../images/pageSeven/playingGamesHero.png) center top no-repeat;}
+.partEight{background: url(../images/pageEight/theJerkHero.jpg) center top no-repeat;}
+.partNine{background: url(../images/pageNine/theHangoutHero.jpg) center top no-repeat;}
+.partTen{background: url(../images/pageTen/meetingHollywoodHero.jpg) center top no-repeat;}
+.partEleven{background: url(../images/pageEleven/firstDateHero.jpg) center top no-repeat;}
+.partTwelve{background: url(../images/pageTwelve/funTogetherHero.jpg) center top no-repeat;}
+.partThirteen{background: url(../images/pageThirteen/andThatsWhenHero.jpg) center top no-repeat;}
+
+.title{
+	position: relative;
+	margin-top: -132px;
+	margin-left: 75px;
+	width:auto;
+	max-width: 441px;
+	max-height: 173px;
+	z-index: 3;
+}
+.partOne .partOneTitle img{
+	width: 100%;
+}
+.partOne .partOneWarren{
+	width: 271px;
+	height: 345px;
+	position: relative;
+	left: 73%;
+	top: -281px;
+}
+.partOne .copyWrapPink,
+.partOne .copyWrapGray{
+	width: 373px;
+	color: #000;
+	
+	font-family: 'Nunito', sans-serif;
+	font-size: 11px;
+	background: #FF4398;
+	text-transform: uppercase;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.02em;
+	line-height: 21px;
+	position: absolute;
+	display: block;
+	margin-left: 507px;
+	z-index: 2;
+	top: 111px;
+	font-weight: lighter !important;
+}
+.partOne .copyWrapGray{
+	background: #252525;
+	color: #fff;
+	margin-left: 260px;
+	margin-top: 146px;
+}
+.copyWrapPink:before{
+	width:373px;
+	height:50px;
+	content: " ";
+    background-image: url(../images/common/pinkTop.png) ;
+    position: absolute;
+    display: block;
+    top: -50px;
+}
+.copyWrapPink:after{
+	width: 373px;
+	height: 50px;
+	content: " ";
+	background-image: url(../images/common/pinkBottom.png);
+	position: absolute;
+	display: block;
+	top: 104px;
+
+}
+.copyWrapGray:before{
+	width:373px;
+	height:50px;
+	content: " ";
+    background-image: url(../images/common/grayTop.png) ;
+    position: absolute;
+    display: block;
+    top: -50px;
+}
+.copyWrapGray:after{
+	width: 373px;
+	height: 50px;
+	content: " ";
+	background-image: url(../images/common/grayBottom.png);
+	position: absolute;
+	display: block;
+	top: 104px;
+
+}
+.partTwo .copyWrapPink,
+.partTwo .copyWrapGray{
+	width: 373px;
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 11px;
+	background: #FF4398;
+	text-transform: uppercase;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.02em;
+	line-height: 21px;
+	position: absolute;
+	display: block;
+	margin-left: 413px;
+	z-index: 2;
+	top: 115px;
+}
+.partTwo{
+	opacity:0;
+}
+.partTwo .copyWrapGray{
+	background: #252525;
+	color: #fff;
+	margin-left: 164px;
+	margin-top: 125px;
+}
+.partTwo .title{
+	margin-top: -121px;
+}
+.partTwo .copyWrapPink:after{
+	top: 83px;
+}
+.partTwo .partTwoWarren{
+	width: 215px;
+	height: 247px;
+	position: absolute;
+	top: -74px;
+	left: 500px;
+	z-index: 1;
+}
+.partTwo .partTwoJulie{
+	width: 182px;
+	height: 249px;
+	position: absolute;
+	left: 670px;
+	top: -60px;
+}
+.copyWrapPink h2,
+.copyWrapGray h2{
+	position: relative;
+	margin: 0px auto;
+	width: 91%;
+	font-weight: lighter;
+}
+
+.partThree .title{margin-top: -147px;}
+
+.partThree .copyWrapPink,
+.partThree .copyWrapGray{
+	width: 373px;
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 11px;
+	background: #FF4398;
+	text-transform: uppercase;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.02em;
+	line-height: 21px;
+	position: absolute;
+	display: block;
+	margin-left: 413px;
+	z-index: 2;
+	top: 115px;
+}
+.partThree .copyWrapGray{
+	background: #252525;
+	color: #fff;
+	margin-left: 164px;
+	margin-top: 145px;
+}
+
+.partFour .title{margin-top: -147px;}
+
+.partFour .copyWrapPink,
+.partFour .copyWrapGray{
+	width: 373px;
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 11px;
+	background: #FF4398;
+	text-transform: uppercase;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.02em;
+	line-height: 21px;
+	position: absolute;
+	display: block;
+	margin-left: 413px;
+	z-index: 2;
+	top: 115px;
+}
+.partFour .copyWrapGray{
+	background: #252525;
+color: #fff;
+margin-left: 164px;
+margin-top: 126px;
+
+}
+.partFour .copyWrapGray:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/grayBottom.png);
+position: absolute;
+display: block;
+top: 83px;
+}
+.partFour .copyWrapPink:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/pinkBottom.png);
+position: absolute;
+display: block;
+top: 83px;
+}
+
+.partFive .title{margin-top: -133px;}
+
+.partFive .copyWrapPink,
+.partFive .copyWrapGray{
+	width: 373px;
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 11px;
+	background: #FF4398;
+	text-transform: uppercase;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.02em;
+	line-height: 21px;
+	position: absolute;
+	display: block;
+	margin-left: 413px;
+	z-index: 2;
+	top: 115px;
+}
+.partFive .copyWrapGray{
+	background: #252525;
+color: #fff;
+margin-left: 164px;
+
+	margin-top: 166px;
+
+}
+.partFive .copyWrapGray:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/grayBottom.png);
+position: absolute;
+display: block;
+top: 83px;
+}
+.partFive .copyWrapPink:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/pinkBottom.png);
+position: absolute;
+display: block;
+top: 83px;
+}
+.partFive .still{
+	position: relative;
+	top: 200px;
+	left: 380px;
+}
+
+
+.partSix .title{margin-top: -133px;}
+
+.partSix .copyWrapPink,
+.partSix .copyWrapGray{
+	width: 373px;
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 11px;
+	background: #FF4398;
+	text-transform: uppercase;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.02em;
+	line-height: 21px;
+	position: absolute;
+	display: block;
+	margin-left: 413px;
+	z-index: 2;
+	top: 115px;
+}
+.partSix .copyWrapGray{
+	background: #252525;
+color: #fff;
+margin-left: 164px;
+
+	margin-top: 116px;
+
+}
+.partSix .copyWrapGray:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/grayBottom.png);
+position: absolute;
+display: block;
+top: 83px;
+}
+.partSix .copyWrapPink:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/pinkBottom.png);
+position: absolute;
+display: block;
+top: 83px;
+}
+.partSix .podcastImage{
+	position: relative;
+	top: 200px;
+	left: 0px;
+}
+
+
+.partSeven .title{margin-top: -133px;}
+
+.partSeven .copyWrapPink,
+.partSeven .copyWrapGray{
+	width: 373px;
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 11px;
+	background: #FF4398;
+	text-transform: uppercase;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.02em;
+	line-height: 21px;
+	position: absolute;
+	display: block;
+	margin-left: 413px;
+	z-index: 2;
+	top: 115px;
+}
+.partSeven .copyWrapGray{
+	background: #252525;
+color: #fff;
+margin-left: 164px;
+
+	margin-top: 142px;
+
+}
+.partSeven .copyWrapGray:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/grayBottom.png);
+position: absolute;
+display: block;
+top: 83px;
+}
+.partSeven .copyWrapPink:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/pinkBottom.png);
+position: absolute;
+display: block;
+top: 83px;
+}
+
+.partSeven .warrenJulieMeet{
+	position: relative;
+	top: 200px;
+	left: -140px;
+}
+.partSeven .introduced{
+	position: relative;
+	top:50px;
+}
+
+.partEight .title{margin-top: -133px;}
+
+.partEight .copyWrapPink,
+.partEight .copyWrapGray{
+	width: 373px;
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 11px;
+	background: #FF4398;
+	text-transform: uppercase;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.02em;
+	line-height: 21px;
+	position: absolute;
+	display: block;
+	margin-left: 413px;
+	z-index: 2;
+	top: 94px;
+}
+.partEight .copyWrapGray{
+	background: #252525;
+color: #fff;
+margin-left: 164px;
+	z-index: 3;
+	margin-top: 171px;
+
+}
+.partEight .copyWrapGray:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/grayBottom.png);
+position: absolute;
+display: block;
+top: 83px;
+}
+.partEight .copyWrapPink:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/pinkBottom.png);
+position: absolute;
+display: block;
+top: 125px;
+}
+
+.partEight .warrenJulieMeet{
+	position: relative;
+	top: 200px;
+	left: -140px;
+}
+.partEight .jerkWarren{
+	position: relative;
+	left: 325px;
+	z-index: 2;
+}
+.partEight .jerkJulie{
+	position: relative;
+	z-index: 1;
+	left: 220px;
+}
+
+
+
+
+.partNine .title{margin-top: -133px;}
+
+.partNine .copyWrapPink,
+.partNine .copyWrapGray{
+	width: 373px;
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 11px;
+	background: #FF4398;
+	text-transform: uppercase;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.02em;
+	line-height: 21px;
+	position: absolute;
+	display: block;
+	margin-left: 413px;
+	z-index: 2;
+	top: 94px;
+}
+.partNine .copyWrapGray{
+	background: #252525;
+color: #fff;
+margin-left: 164px;
+	z-index: 3;
+	margin-top: 170px;
+
+}
+.partNine .copyWrapGray:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/grayBottom.png);
+position: absolute;
+display: block;
+top: 41px;
+}
+.partNine .copyWrapPink:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/pinkBottom.png);
+position: absolute;
+display: block;
+top: 83px;
+}
+
+
+
+
+.partTen .title{margin-top: -133px;}
+
+.partTen .copyWrapPink,
+.partTen .copyWrapGray{
+	width: 373px;
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 11px;
+	background: #FF4398;
+	text-transform: uppercase;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.02em;
+	line-height: 21px;
+	position: absolute;
+	display: block;
+	margin-left: 413px;
+	z-index: 2;
+	top: 107px;
+}
+.partTen .copyWrapGray{
+	background: #252525;
+color: #fff;
+margin-left: 164px;
+	z-index: 3;
+	margin-top: 140px;
+
+}
+.partTen .copyWrapGray:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/grayBottom.png);
+position: absolute;
+display: block;
+top: 62px;
+}
+.partTen .copyWrapPink:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/pinkBottom.png);
+position: absolute;
+display: block;
+top: 62px;
+}
+.julieKev{
+	position: relative;
+	top: 80px;
+	z-index: 1;
+	left: 450px;
+}
+.warrenKev{
+	position: relative;
+	top: 100px;
+	left: 562px;
+	z-index: 2;
+}
+
+.partEleven .title{margin-top: -143px;}
+
+.partEleven .copyWrapPink,
+.partEleven .copyWrapGray{
+	width: 373px;
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 11px;
+	background: #FF4398;
+	text-transform: uppercase;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.02em;
+	line-height: 21px;
+	position: absolute;
+	display: block;
+	margin-left: 413px;
+	z-index: 2;
+	top: 94px;
+}
+.partEleven .copyWrapGray{
+	background: #252525;
+color: #fff;
+margin-left: 164px;
+	z-index: 3;
+	margin-top: 160px;
+
+}
+.partEleven .copyWrapGray:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/grayBottom.png);
+position: absolute;
+display: block;
+top: 103px;
+}
+.partEleven .copyWrapPink:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/pinkBottom.png);
+position: absolute;
+display: block;
+top: 83px;
+}
+.partEleven .warrenKev {
+position: relative;
+top: 100px;
+left: -36px;
+z-index: 2;
+}
+
+.partTwelve .title{margin-top: -133px;}
+
+.partTwelve .copyWrapPink,
+.partTwelve .copyWrapGray{
+	width: 373px;
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 11px;
+	background: #FF4398;
+	text-transform: uppercase;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.02em;
+	line-height: 21px;
+	position: absolute;
+	display: block;
+	margin-left: 413px;
+	z-index: 2;
+	top: 94px;
+}
+.partTwelve .copyWrapGray{
+	background: #252525;
+color: #fff;
+margin-left: 164px;
+	z-index: 3;
+	margin-top: 140px;
+
+}
+.partTwelve .copyWrapGray:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/grayBottom.png);
+position: absolute;
+display: block;
+top: 62px;
+}
+.partTwelve .copyWrapPink:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/pinkBottom.png);
+position: absolute;
+display: block;
+top: 62px;
+}
+.partTwelve .warrenJules{
+	position: relative;
+} 
+
+.partThirteen .title{margin-top: -133px;}
+
+.partThirteen .copyWrapPink,
+.partThirteen .copyWrapGray{
+	width: 373px;
+	color: #000;
+	font-family: 'Nunito', sans-serif;
+	font-size: 11px;
+	background: #FF4398;
+	text-transform: uppercase;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.02em;
+	line-height: 21px;
+	position: absolute;
+	display: block;
+	margin-left: 413px;
+	z-index: 2;
+	top: 94px;
+}
+.partThirteen .copyWrapGray{
+	background: #252525;
+color: #fff;
+margin-left: 164px;
+	z-index: 3;
+	margin-top: 170px;
+
+}
+.partThirteen .copyWrapGray:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/grayBottom.png);
+position: absolute;
+display: block;
+top: 41px;
+}
+.partThirteen .copyWrapPink:after {
+width: 373px;
+height: 50px;
+content: " ";
+background-image: url(../images/common/pinkBottom.png);
+position: absolute;
+display: block;
+top: 83px;
+}
+.partThirteen h2{
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.partThirteen .heProposed{
+	position: absolute;
+	top: 360px;
+	left: 230px;
+}
+.partThirteen p{
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.end .wrapper{
+	text-align: center;
+}
